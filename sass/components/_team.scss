@@ -1,22 +1,22 @@
 .team {
-    background-color: $teamCardColor;
-    max-width: 1200px;
-    justify-content: center;
-    padding-bottom: 94px;
-    padding-top: 94px;
-    align-items: center;
-    
-    &__title{
-      color: $secondaryBlackColor;
-      font-weight: 700;
-      font-size: 36;
-      line-height: 1.17;
-      text-align: center;
-      letter-spacing: 0.03em;
-      margin-top: 0;
-      margin-bottom: 50px;
-    }
-  
+  background-color: $teamCardColor;
+  max-width: 1200px;
+  justify-content: center;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  align-items: center;
+
+  &__title {
+    color: $secondaryBlackColor;
+    font-weight: 700;
+    font-size: 36;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
   &__part {
     display: flex;
     padding: 0;
@@ -31,7 +31,7 @@
   &__part > &__box:not(:last-child) {
     margin-right: 30px;
   }
-  
+
   &__name {
     color: $secondaryBlackColor;
     font-weight: 500;
@@ -42,7 +42,7 @@
     margin: auto;
     padding-top: 30px;
   }
-  
+
   &__description {
     font-size: 16;
     line-height: 1.17;
@@ -55,7 +55,7 @@
     padding-top: 16px;
     padding-bottom: 30px;
   }
-  
+
   &__icon {
     fill: $clientLogoColor;
     padding: 12px;
@@ -75,6 +75,4 @@
     background-color: $blueColor;
     fill: $whiteColor;
   }
-  
-  
 }

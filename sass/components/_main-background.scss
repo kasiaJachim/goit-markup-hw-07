@@ -1,15 +1,15 @@
 .main-background {
-    background-image: linear-gradient(
-        0deg,
-        rgba(47, 48, 58, 0.4) 0%,
-        rgba(47, 48, 58, 0.4) 100%
-      ),
-      url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 1600px;
-    height: 600px;
-  
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  height: 600px;
+
   &__content {
     display: flex;
     justify-content: center;

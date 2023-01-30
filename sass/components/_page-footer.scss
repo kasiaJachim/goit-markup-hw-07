@@ -1,25 +1,24 @@
 .page-footer {
-    min-width: 1200px;
-    background-color: $backgroundColor;
+  min-width: 1200px;
+  background-color: $backgroundColor;
   &__section {
     display: flex;
     padding-top: 30px;
     justify-content: space-evenly;
     padding-bottom: 30px;
   }
-  
+
   &__address {
     color: $whiteColor;
     letter-spacing: 0.03em;
-  
+
     font-weight: 500;
     font-size: 14;
     line-height: 1.17;
     text-decoration: none;
     letter-spacing: 0.02em;
-
   }
-  
+
   &__contact {
     color: $contactFooterColor;
     font-size: 14;
@@ -36,7 +35,7 @@
     text-transform: uppercase;
     text-align: center;
   }
-  
+
   &__link {
     display: flex;
     padding-left: 70px;
@@ -45,7 +44,7 @@
   &__link > li:not(:last-child) {
     margin-right: 10px;
   }
-  
+
   &__icon {
     width: 44px;
     height: 44px;
@@ -63,8 +62,7 @@
   &__icon:focus {
     background-color: $blueColor;
   }
-  &__adr{
+  &__adr {
     padding-bottom: 10px;
-  
   }
 }

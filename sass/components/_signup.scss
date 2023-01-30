@@ -1,6 +1,6 @@
 .signup {
-    padding-left: 50px;
-  
+  padding-left: 50px;
+
   &__label {
     text-transform: uppercase;
     font-weight: 700;
@@ -44,7 +44,7 @@
     line-height: 1.87;
     letter-spacing: 0.06em;
   }
-  
+
   &__btn-submit:focus,
   &__btn-submit:hover {
     background-color: $blueColor;

@@ -1,13 +1,13 @@
 .grid {
-    min-width: 1200px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding-top: 32px;
-    padding-bottom: 94px;
-    padding-left: 10px;
-    justify-content: center;
-  
+  min-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 32px;
+  padding-bottom: 94px;
+  padding-left: 10px;
+  justify-content: center;
+
   &__body {
     max-width: 370px;
     flex-basis: calc((100% - 60px) / 3);
@@ -29,7 +29,7 @@
     transition-property: transform;
     overflow: hidden;
   }
-  
+
   &__overlay {
     font-size: 18;
     line-height: 1.55;
@@ -61,7 +61,7 @@
   & > img {
     display: block;
   }
-  
+
   &__title {
     color: $secondaryBlackColor;
     font-weight: 700;

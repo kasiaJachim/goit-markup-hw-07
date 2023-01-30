@@ -1,7 +1,7 @@
 .picture-section {
   max-width: 1200px;
   padding-bottom: 94px;
-  &__title{
+  &__title {
     color: $secondaryBlackColor;
     font-weight: 700;
     font-size: 36;
@@ -14,13 +14,12 @@
 }
 
 .picture {
-    display: flex;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-  
-  
-  &> li:not(:last-child) {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+
+  & > li:not(:last-child) {
     margin-right: 30px;
   }
   &__description {
@@ -43,7 +42,4 @@
     font-weight: 700;
     line-height: 1.14;
   }
-  
 }
-
-
